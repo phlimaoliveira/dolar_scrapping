@@ -55,4 +55,4 @@ def get_value_of_dolar(driver):
     return driver.find_element(By.XPATH, '/html/body/div[7]/div/div[10]/div/div[2]/div[2]/div/div/div[1]/div/div/div/div/div/div/div[3]/div[1]/div[1]/div[2]/span[1]').text
 
 if __name__ == '__main__':
-    dolar_web_scrapping()
+    dolar_web_scrapping() 
